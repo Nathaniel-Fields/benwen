@@ -1,5 +1,5 @@
 $('#whole-doc').hide();
-$('whole-doc').ready(scrollSpy);
+$('#whole-doc').ready(scrollSpy);
 $('#whole-doc').ready().fadeIn(1500);
 
 /***** Start of attachable & detachable nav *****/
@@ -10,7 +10,7 @@ $(window).resize(function() {
 	navPosition = $('#nav').offset();
 });
 
-$(window).scroll(fixNavToTop)
+$(window).scroll(fixNavToTop);
 
 /* Start of function to attach or detach nav */
 function fixNavToTop() {
