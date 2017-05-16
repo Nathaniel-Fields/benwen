@@ -1,331 +1,213 @@
 * {
-	margin: 0;
-	padding: 0;
-	box-sizing: border-box;
-}
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
 
 /***** LAYOUT *****/
-
 body {
-	display: flex;
-	flex-direction: column;
-	height: 100vh;
-}
+  display: flex;
+  flex-direction: column;
+  height: 100vh; }
 
 header {
-	text-align: center;
-	background: url('../img/414.jpg') no-repeat center center;
-	background-size: cover;
-	width: 100%;
-}
+  text-align: center;
+  background: url("../img/414.jpg") no-repeat center center;
+  background-size: cover;
+  width: 100%; }
 
 #benwen {
-	font-family: 'Lobster', cursive;
-	font-size: 6em;
-	margin: 0;
-	text-shadow: 5px 2px 10px black;
-}
+  font-family: 'Lobster', cursive;
+  font-size: 6em;
+  margin: 0;
+  text-shadow: 5px 2px 10px black; }
 
 header p {
-	padding: 20px 0;
-	font-family: 'Open Sans', sans-serif;
-}
+  padding: 20px 0;
+  font-family: 'Open Sans', sans-serif; }
 
 #nav-ul {
-	padding: 10px 0;
-	list-style: none;
-	display: flex;
-	flex-direction: row;
-	justify-content: space-around;
-	box-shadow: 0 0 20px 1px black;
-	z-index: 9999;
-}
+  padding: 10px 0;
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  box-shadow: 0 0 20px 1px black;
+  z-index: 9999; }
 
 a,
 p,
 h2 {
-	text-decoration: none;
-	font-family: 'Open Sans', sans-serif;
-	text-align: center;
-}
+  text-decoration: none;
+  font-family: 'Open Sans', sans-serif;
+  text-align: center; }
 
 .fixed-header {
-	position: fixed;
-	width: 100%;
-}
+  position: fixed;
+  width: 100%; }
 
 .nav-compensation {
-	margin-top: 38px;
-}
+  margin-top: 38px; }
 
 #studio-content,
 #about-content,
 #book-content {
-	display: flex;
-	flex-direction: column;
-	padding: 20px;
-}
+  display: flex;
+  flex-direction: column;
+  padding: 20px; }
 
 #studio-content h2,
 #about-content h2,
 #book-content h2 {
-	padding: 10px 0;
-}
+  padding: 10px 0; }
 
 #studio-content p,
 #about-content p,
 #book-content p {
-	padding: 15px 30px 30px 30px;
-	border-radius: 20px;
-}
+  padding: 15px 30px 30px 30px;
+  border-radius: 20px; }
 
 #gabe-guitar-img {
-	background: url('../img/gabeguitar.jpg') no-repeat center;
-	background-size: cover;
-	height: 750px;
-	width: 100%;
-}
+  background: url("../img/gabeguitar.jpg") no-repeat center;
+  background-size: cover;
+  height: 750px;
+  width: 100%; }
 
 #nath-img {
-	background: url('../img/nath.jpg') no-repeat center;
-	background-size: cover;
-	height: 750px;
-	width: 100%;
-}
+  background: url("../img/nath.jpg") no-repeat center;
+  background-size: cover;
+  height: 750px;
+  width: 100%; }
 
 form {
-	margin: 75px auto;
-	padding: 10px 20px;
-	border-radius: 4%;
-	display: flex;
-	flex-direction: column;
-	font-family: 'Open Sans', sans-serif;
-}
+  margin: 75px auto;
+  padding: 10px 20px;
+  border-radius: 4%;
+  display: flex;
+  flex-direction: column;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.2rem; }
 
 input,
 textarea,
 button {
-	margin: 5px 5px;
-	padding: 10px 5px;
-	min-width: 300px;
-	border-style: none;
-	border-radius: 5px;
-	font-size: 1em;
-	outline: none;
-}
+  margin: 5px 5px;
+  padding: 10px 5px;
+  min-width: 300px;
+  border-style: none;
+  border-radius: 5px;
+  font-size: 1em;
+  outline: none; }
 
 #submit {
-	font-size: 1.5rem;
-}
+  font-size: 1.5rem; }
 
 footer {
-	margin-top: auto;
-	text-align: center;
-	padding: 20px 0;
-	font-family: 'Open Sans', sans-serif;
-}
+  margin-top: auto;
+  text-align: center;
+  padding: 20px 0;
+  font-family: 'Open Sans', sans-serif; }
 
 /***** Fonts *****/
-
 @font-face {
-	src: url(https://fonts.googleapis.com/css?family=Lobster);
-	src: url(https://fonts.googleapis.com/css?family=Open+Sans);
-}
-
+  src: url(https://fonts.googleapis.com/css?family=Lobster);
+  src: url(https://fonts.googleapis.com/css?family=Open+Sans); }
 /***** COLOR *****/
-
 body {
-	background-color: #191919;
-}
+  background-color: #191919; }
 
 header {
-	background-color: black;
-	box-shadow: 0 0 9999px 15px black inset;
-	color: #fff;
-}
+  background-color: #000;
+  box-shadow: 0 0 9999px 15px #000 inset;
+  color: #fff; }
 
 header p {
-	color: #cc9933;
-}
+  color: rgba(224, 164, 49, 0.75); }
 
 #nav {
-	background: #cc9933;
-}
+  background: rgba(224, 164, 49, 0.75); }
 
 a {
-	color: #000;
-	font-weight: bold;
-}
+  color: #000;
+  font-weight: bold; }
 
 .scroll-spy-color {
-	font-size: 1.05rem;
-	color: #fff;
-	text-shadow: 3px 3px 10px black;
-}
+  color: #fff;
+  text-shadow: 3px 3px 10px #000;
+  transition: color 0.15s linear 0s, text-shadow 0.15s linear 0s, background-color 0.15s linear 0s;
+  font-size: 1.05rem; }
 
 .img-border {
-    border-top: 10px inset rgba(255,255,255,0.08);
-    border-bottom: 10px inset rgba(255,255,255,0.08);
-}
+  border-top: 10px inset rgba(255, 255, 255, 0.08);
+  border-bottom: 10px inset rgba(255, 255, 255, 0.08); }
 
 #studio-header {
-	background: linear-gradient(-90deg, #191919, rgba(193,137,29,0.75), rgba(193,137,29,0.75), rgba(193,137,29,0.75), rgba(193,137,29,0.75), #191919);
-	background-color: rgba(193,137,29,0.75);
-}
+  background: linear-gradient(-90deg, #191919, rgba(224, 164, 49, 0.75), rgba(224, 164, 49, 0.75), rgba(224, 164, 49, 0.75), rgba(224, 164, 49, 0.75), #191919);
+  background-color: rgba(224, 164, 49, 0.75); }
 
 #studio-content p {
-	color:  rgba(193,137,29,0.75);	
-}
+  color: rgba(224, 164, 49, 0.75); }
 
 #about-header {
-	background: linear-gradient(-90deg, #191919, rgba(255,78,30,0.75), rgba(255,78,30,0.75), rgba(255,78,30,0.75), rgba(255,78,30,0.75), #191919);
-	background-color: rgba(255,78,30,0.75);
-}
+  background: linear-gradient(-90deg, #191919, rgba(224, 91, 49, 0.75), rgba(224, 91, 49, 0.75), rgba(224, 91, 49, 0.75), rgba(224, 91, 49, 0.75), #191919);
+  background-color: rgba(224, 91, 49, 0.75); }
 
 #about-content p {
-	color: rgba(255,78,30,0.75);	
-}
+  color: rgba(224, 91, 49, 0.75); }
 
 #book-header {
-	background: linear-gradient(-90deg, #191919, rgba(240,65,65,0.75), rgba(240,65,65,0.75), rgba(240,65,65,0.75), rgba(240,65,65,0.75), #191919);
-	background-color: rgba(240,65,65,0.75);
-}
+  background: linear-gradient(-90deg, #191919, rgba(227, 71, 85, 0.75), rgba(227, 71, 85, 0.75), rgba(227, 71, 85, 0.75), rgba(227, 71, 85, 0.75), #191919);
+  background-color: rgba(227, 71, 85, 0.75); }
 
 #book-content p {
-	color: rgba(240,65,65,0.75);	
-}
+  color: rgba(227, 71, 85, 0.75); }
 
 form {
-	background-color: rgba(240,65,65,0.75);
-}
+  background-color: #272727;
+  color: #fff;
+  text-shadow: 3px 3px 10px #000;
+  transition: color 0.15s linear 0s, text-shadow 0.15s linear 0s, background-color 0.15s linear 0s; }
+  form input,
+  form textarea {
+    background-color: #ccc; }
 
 .required-color,
 .required-isEmpty {
-	border-bottom: red solid 3px;
-}
+  border-bottom: red solid 3px; }
 
 .required-isFilled {
-	border-bottom: green solid 3px;
-}
+  border-bottom: green solid 3px; }
 
 .btn-false {
-	background-color: #9a9a9a;
-	color: #e1e1e1;
-}
+  background-color: #5f5f5f;
+  transition: background-color 0.15s linear 0s;
+  color: #aaa; }
 
 .btn-true {
-	background-color: #666;
-	color: #fff;
-}
+  background-color: rgba(231, 93, 106, 0.75);
+  transition: background-color 0.15s linear 0s;
+  color: #ccc; }
+  .btn-true:hover {
+    color: #fff;
+    text-shadow: 3px 3px 10px #000;
+    transition: color 0.15s linear 0s, text-shadow 0.15s linear 0s, background-color 0.15s linear 0s;
+    background-color: rgba(227, 71, 85, 0.75); }
+
+footer {
+  background-color: #272727; }
+  footer p {
+    color: #aaa; }
 
 /***** DEVICE *****/
-
 @media (min-width: 533px) {
-	#benwen {
-		font-size: 10em;
-		padding
-	}
-}
-
+  #benwen {
+    font-size: 10em; } }
 @media (min-width: 1000px) {
-	#benwen {
-		font-size: 18.6em;
-		padding: 0 0;
-	}
-
-	header {
-	background: url('../img/414.jpg') no-repeat center center fixed;
-	background-size: cover;
-	}
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+  #benwen {
+    font-size: 18.6em;
+    padding: 0 0; }
+
+  header {
+    background: url("../img/414.jpg") no-repeat center center fixed;
+    background-size: cover; } }
+
+/*# sourceMappingURL=main.css.map */
